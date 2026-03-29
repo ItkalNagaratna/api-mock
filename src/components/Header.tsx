@@ -1,4 +1,4 @@
-import { Shuffle, Zap } from 'lucide-react';
+import { Shuffle } from 'lucide-react';
 
 interface HeaderProps {
   onRandomize: () => void;
@@ -28,7 +28,7 @@ export function Header({ onRandomize, hasData }: HeaderProps) {
             boxShadow: '0 0 18px rgba(99,102,241,0.35), inset 0 1px 0 rgba(255,255,255,0.08)',
           }}
         >
-          <Zap className="w-4 h-4" style={{ filter: 'drop-shadow(0 0 6px rgba(99,102,241,0.9))' }} />
+          <img src="/favicon.svg" alt="API Mock UI Logo" className="w-5 h-5 object-contain" style={{ filter: 'drop-shadow(0 0 6px rgba(99,102,241,0.9))' }} />
         </div>
 
         <div className="flex flex-col">
@@ -37,7 +37,7 @@ export function Header({ onRandomize, hasData }: HeaderProps) {
             WebkitBackgroundClip: 'text',
             WebkitTextFillColor: 'transparent',
           }}>
-            API Mock &amp; Play
+            API Mock UI
           </h1>
           <span className="text-[10px] font-semibold uppercase tracking-[0.2em]" style={{ color: 'rgba(139,92,246,0.8)' }}>
             JSON IDE Dashboard
