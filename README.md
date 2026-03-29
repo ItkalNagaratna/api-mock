@@ -39,7 +39,7 @@ A modern, intuitive tool to transform JSON data into usable code artifacts for y
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/api-mock-ui.git
+   git clone https://github.com/ItkalNagaratna/api-mock-ui.git
    cd api-mock-ui
    ```
 
@@ -59,6 +59,22 @@ To ensure everything is working correctly, run the unit tests:
 ```bash
 npm test
 ```
+
+## 🧩 Reusing the Logic
+
+If you want to use the generation engine in your own projects without the full UI, you can easily copy the core utilities:
+
+1.  **Copy Utils**: Grab the `src/utils/` directory. It contains `typeGenerator.ts` and `mockGenerator.ts`.
+2.  **Usage Example**:
+    ```typescript
+    import { generateTypeScript } from './utils/typeGenerator';
+    
+    const json = { id: 1, name: "Test" };
+    const tsCode = generateTypeScript(json, "MyResponse");
+    console.log(tsCode);
+    ```
+
+*Note: If you'd like to see this as a standalone NPM package, feel free to open an issue!*
 
 ## 📖 Usage
 
