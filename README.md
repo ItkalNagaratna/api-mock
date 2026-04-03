@@ -4,19 +4,24 @@
 
 A modern, intuitive tool to transform JSON data into usable code artifacts for your development workflow. Instantly generate TypeScript interfaces, Zod schemas, and MSW handlers from any JSON structure.
 
-![Hero Image](./src/assets/screenshot.png)
+![AI Powered Mock Generation](./src/assets/dashboard_ai.png)
 
 ## 🚀 Features
 
-- **Instant Code Generation**: Convert JSON to TypeScript interfaces, Zod schemas, and MSW handlers in real-time.
-- **Visual Tree View**: Explore your JSON structure with a clean, interactive tree representation.
-- **Smart Data Randomization**: Generate mock data variations while preserving the original JSON structure.
-- **Developer First DX**: 
+- **🪄 AI-Powered JSON Generation**: Instantly create complex mock data structures using natural language prompts via the floating AI command bar.
+- **🔐 Secure Gemini Integration**: Securely store your Google Gemini API key in local storage to unlock advanced generative capabilities.
+- **⚡ Instant Code Generation**: Convert JSON to TypeScript interfaces, Zod schemas, and MSW handlers in real-time.
+- **🌳 Visual Tree View**: Explore your JSON structure with a clean, interactive tree representation.
+- **🎲 Smart Data Randomization**: Generate mock data variations while preserving the original JSON structure.
+- **🛠️ Developer First DX**: 
   - Powered by Monaco Editor (the core of VS Code).
   - One-click copy and file downloads.
   - Built-in JSON formatting and validation.
-- **Highly Customizable**: Configure interface names, schema names, and API endpoints to match your project's naming conventions.
-- **Glassmorphism UI**: A beautiful, modern interface with smooth animations and responsive design.
+- **🌈 Glassmorphism UI**: A beautiful, modern interface with smooth animations and responsive design.
+
+### 🧪 Advanced AI Configuration
+![AI Configuration Mode](./src/assets/ai_config.png)
+Simply enter your Gemini API key in the configuration modal to enable the AI features. Your key is only used to communicate with the Google Generative AI API and never leaves your browser.
 
 ## 🛠️ Built With
 
