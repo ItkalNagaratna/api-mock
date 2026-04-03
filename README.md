@@ -1,4 +1,4 @@
-# API Mock UI
+# API Mock
 
 ![Deploy to GitHub Pages](https://github.com/ItkalNagaratna/api-mock-ui/actions/workflows/deploy.yml/badge.svg)
 
