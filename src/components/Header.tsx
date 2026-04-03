@@ -42,7 +42,7 @@ export function Header({ onRandomize, onAiConfigClick, hasData, hasApiKey }: Hea
             WebkitBackgroundClip: 'text',
             WebkitTextFillColor: 'transparent',
           }}>
-            API Mock UI
+            API Mock
           </h1>
           <span className="text-[10px] font-semibold uppercase tracking-[0.2em]" style={{ color: 'rgba(139,92,246,0.8)' }}>
             JSON IDE Dashboard

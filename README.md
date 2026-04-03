@@ -1,6 +1,6 @@
 # API Mock
 
-![Deploy to GitHub Pages](https://github.com/ItkalNagaratna/api-mock-ui/actions/workflows/deploy.yml/badge.svg)
+![Deploy to GitHub Pages](https://github.com/ItkalNagaratna/api-mock/actions/workflows/deploy.yml/badge.svg)
 
 A modern, intuitive tool to transform JSON data into usable code artifacts for your development workflow. Instantly generate TypeScript interfaces, Zod schemas, and MSW handlers from any JSON structure.
 
@@ -44,8 +44,8 @@ Simply enter your Gemini API key in the configuration modal to enable the AI fea
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/ItkalNagaratna/api-mock-ui.git
-   cd api-mock-ui
+    git clone https://github.com/ItkalNagaratna/api-mock.git
+    cd api-mock
    ```
 
 2. Install dependencies:
